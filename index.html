@@ -18,12 +18,20 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Welcome to the Guessing Game</h1>
-    <button name="Button1">Button1</button>
-    <button name="Button2">Button2</button>
-    <button name="Button3">Button3</button>
-    <button name="Button4">Button4</button>
-    <input type="text" />
+    <div class="intro">
+	    <img src="images/alakazam-mega.gif" alt="Mega Alakazam" id="ala1"/>
+	    <h1>Welcome to the Guessing Game</h1>
+	    <img id="ala2" src="images/alakazam-mega.gif" alt="Mega Alakazam" />
+	</div>
+	<div class="game">
+		<label for="number"><h2>Guess the number:</h2></label>
+	    <input type="text" placeholder="Guess 1-100" id="number"/>
+	    <input type="submit" id="number"/>
+	    <div class="buttons">
+	      <button name="Button1">Play again</button>
+	      <button name="Button2">Give me a hint</button>
+	    </div>
+	 </div>  
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
