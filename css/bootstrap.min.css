@@ -6,14 +6,15 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 .intro {
-	width: 830px;
+	width: 840px;
 	margin: 0 auto 30px auto;
 }
 
 .intro h1 {
 	display: inline;
 	color: #4c0080;
-	width: 500px;
+	margin: auto;
+	text-align: center;
 }
 
 .intro img {
@@ -22,8 +23,9 @@
 
 .game label {
 	display: block;
-	width: 265px;
-	margin: 0 auto 0 auto;
+	width: 500px;
+	margin: auto;
+	text-align: center;
 }
 
 .game input {
@@ -41,9 +43,13 @@
 }
 
 .buttons {
-	width: 225px;
-	margin: 0 auto 0 auto;
+	width: 500px;
+	margin: auto;
+	text-align: center;
 }
 
+.buttons p {
+	margin-top: 10px;
+}
 
 

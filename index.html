@@ -21,12 +21,12 @@
     <div class="intro">
 	    <img src="images/alakazam-mega.gif" alt="Mega Alakazam" id="ala1"/>
 	    <h1>Welcome to the Guessing Game</h1>
-	    <img id="ala2" src="images/alakazam-mega.gif" alt="Mega Alakazam" />
+	    <img src="images/alakazam-mega.gif" alt="Mega Alakazam" id="ala2" />
 	</div>
 	<div class="game">
 		<label for="number"><h2>Guess the number:</h2></label>
 	    <input type="text" placeholder="Guess 1-100" id="number"/>
-	    <input type="submit" id="number"/>
+	    <input type="submit" onclick="playersGuessSubmission()"/>
 	    <div class="buttons">
 	      <button name="Button1">Play again</button>
 	      <button name="Button2">Give me a hint</button>
@@ -37,5 +37,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/guessingGame.js"></script>
   </body>
 </html>
